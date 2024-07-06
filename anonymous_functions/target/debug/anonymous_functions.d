@@ -1,0 +1,1 @@
+/home/mohammedbilalns/rust/anonymous_functions/target/debug/anonymous_functions: /home/mohammedbilalns/rust/anonymous_functions/src/closures.rs /home/mohammedbilalns/rust/anonymous_functions/src/main.rs
