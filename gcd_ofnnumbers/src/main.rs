@@ -1,4 +1,5 @@
 use std::io;
+
 fn gcd(nums: &Vec<usize>) -> usize {
     match nums.len() {
         0 => panic!("Cannot compute GCD of empty number"),
@@ -15,11 +16,10 @@ fn gcd_of_two_numbers(a: usize, b: usize) -> usize {
         0 => a,
         _ => gcd_of_two_numbers(b, a % b),
     }
-}
+}  
 
 fn main() {
     println!(" Enter the numbers ");
-
     let mut input: String = Default::default();
     io::stdin()
         .read_line(&mut input)
@@ -31,7 +31,7 @@ fn main() {
         .collect();
 
     let c = gcd(&numbers);
-    println!("{c}");
+    println!("gcd of {:?} is {c}",numbers);
     
 
 }
