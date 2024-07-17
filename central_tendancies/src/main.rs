@@ -20,8 +20,8 @@ fn median(nums: &mut Vec<f32>) -> f32 {
     } // returns median after checking weather the length is odd or even 
 }
 
-fn mode(nums: &Vec<f32>) {}
-
+fn mode(){
+}
 fn main() {
     println!("Enter the numbers ");
     let mut input: String = String::new();

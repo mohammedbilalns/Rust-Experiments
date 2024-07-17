@@ -31,7 +31,9 @@ fn main() {
         .collect();
 
     let c = gcd(&numbers);
+     
     println!("gcd of {:?} is {c}",numbers);
     
 
 }
+
