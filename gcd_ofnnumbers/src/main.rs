@@ -23,12 +23,12 @@ fn main() {
     let mut input: String = Default::default();
     io::stdin()
         .read_line(&mut input)
-        .expect("failed to read response");
+        .expect("failed to read response"); // read the response 
 
     let numbers: Vec<usize> = input
         .split_whitespace()
         .filter_map(|s| s.parse().ok())
-        .collect();
+        .collect(); //parse the response into  a vector 
 
     let c = gcd(&numbers);
      
